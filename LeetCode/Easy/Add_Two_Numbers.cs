@@ -28,7 +28,7 @@ public class Add_Two_Numbers
             // sum here will be 7
 
             carry = sum / 10; // 0
-            current.next = new ListNode(sum % 10); // 3
+            current.next = new ListNode(sum % 10); // 7
             current = current.next;
         }
         return dummy.next;
