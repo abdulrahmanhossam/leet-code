@@ -4,8 +4,8 @@ namespace LeetCode.Easy;
 public class ListNode
 {
     public int val;
-    public ListNode? next;
-    public ListNode(int val = 0, ListNode? next = null)
+    public ListNode next;
+    public ListNode(int val = 0, ListNode next = null)
     {
         this.val = val;
         this.next = next;
@@ -14,7 +14,7 @@ public class ListNode
 
 public class Merge_Two_Sorted_Lists
 {
-    public ListNode? MergeTwoLists(ListNode? list1, ListNode? list2)
+    public ListNode MergeTwoLists(ListNode list1, ListNode list2)
     {
         ListNode dummy = new ListNode(0);
 
