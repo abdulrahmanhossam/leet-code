@@ -1,0 +1,21 @@
+namespace LeetCode.Easy;
+
+public class Remove_Duplicates_From_Sorted_Array
+{
+    public int RemoveDuplicates(int[] nums)
+    {
+        if (nums.Length == 0) return 0;
+
+        int i = 1;
+
+        for (int j = 1; j < nums.Length; j++)
+        {
+            if (nums[j] != nums[j - 1])
+            {
+                nums[i] = nums[j];
+                i++;
+            }
+        }
+        return i;
+    }
+}
