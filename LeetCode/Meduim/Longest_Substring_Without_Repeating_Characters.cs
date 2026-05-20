@@ -7,7 +7,7 @@ public class Longest_Substring_Without_Repeating_Characters
         var charMap = new Dictionary<char, int>(); //pw, wke
 
         int maxl = 0;
-        int start_point = 0; // 2 , 6
+        int start_point = 0;
 
         for (int i = 0; i < s.Length; i++)
         {
